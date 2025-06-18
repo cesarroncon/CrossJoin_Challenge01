@@ -70,9 +70,9 @@ Este repositório inclui um conjunto fechado de testes automatizados que cobrem:
 
 No terminal:
 1. Clone o repositório para um direterio pessoal.
-   git clone https://github.com/cesarroncon/CrossJoin_Challenge.git
+   "git clone https://github.com/cesarroncon/CrossJoin_Challenge01.git"
 4. Entre na pasta "Challenge".
-    "cd .\CrossJoin_Challenge\Challenge\"
+    "cd .\CrossJoin_Challenge01\Challenge\"
 6. Build.
    "dotnet build"
 7. Test
