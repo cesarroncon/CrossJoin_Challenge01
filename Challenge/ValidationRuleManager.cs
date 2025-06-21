@@ -37,7 +37,7 @@ public class ValidationRuleManager
 
         foreach (var rule in rules.Where(r => r.ClassName == className))
         {
-            if (rule.Condition(obj))
+            if (rule.Condition(obj))//excuta a condição aplicada
             {
                 var value = obj.GetType().GetProperty(rule.FieldName)?.GetValue(obj);
                 if (rule.IsRequired && (value == null || string.IsNullOrEmpty(value.ToString())))
